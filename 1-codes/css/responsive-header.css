@@ -1,0 +1,221 @@
+/* ===================================930px de largueur */
+@media screen and (max-width: 1000px) {
+  .nav-inline-container div nav {
+    width: 100px;
+  }
+}
+
+
+/* ====================================827px de largeur */
+@media screen and (max-width: 890px) {
+
+  /* ===========header  */
+  #mail-icon {
+    top: 310px;
+    left: 15%;
+  }
+
+  #fb-icon {
+    top: 47px;
+    left: 25%;
+  }
+
+  #github-icon {
+    top: 300px;
+    right: 15%;
+  }
+
+  #linkedIn-icon {
+    top: 49px;
+    right: 20%;
+  }
+
+  .nav-right,
+  .nav-left {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block !important;
+  }
+}
+
+/*==================================== 666px de largeur */
+/* ==============header */
+@media screen and (max-width: 666px) {
+  #mail-icon {
+    top: 300px;
+    left: 5%;
+  }
+
+  #fb-icon {
+    top: 35px;
+    left: 15%;
+  }
+
+  #github-icon {
+    top: 295px;
+    right: 5%;
+  }
+
+  #linkedIn-icon {
+    top: 45px;
+    right: 10%;
+  }
+
+  #mail-icon img,
+  #fb-icon img,
+  #github-icon img,
+  #linkedIn-icon img {
+    width: 16vw;
+  }
+
+  .masthead-heading-p {
+    margin-top: 12px;
+    font-size: 6vw !important;
+  }
+
+  .divider-custom-p {
+    width: 90%;
+  }
+
+  .masthead-subheading-p {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+}
+
+/*======================================== 442px de largeur */
+/* ===============header */
+@media screen and (max-width:442px) {
+  #profil-container-img {
+    width: 10rem;
+    height: 15rem;
+  }
+
+  #mail-icon {
+    top: 200px;
+    left: 5%;
+  }
+
+  #github-icon {
+    top: 200px;
+    right: 5%;
+  }
+
+  .masthead-subheading-p {
+    font-size: 5vw;
+  }
+
+  .divider-custom-p i {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .Profil-home-container a i {
+    font-size: 40px;
+  }
+
+}
+
+
+/*=========================================== 296px de largeur */
+/* ================header */
+@media screen and (max-width:296px) {
+  .nav-bottom-container nav a i {
+    font-size: 20vw;
+  }
+
+  .nav-bottom-container nav a h6 {
+    font-size: 5vw;
+  }
+
+  .menu-icon i {
+    font-size: 35px;
+  }
+
+  .menu-icon {
+    width: 100%;
+    left: 0;
+    height: 40px;
+  }
+
+  .cv-container {
+    width: 150px;
+    height: 29px;
+  }
+
+  .Profil-home-container a i {
+    font-size: 30px;
+  }
+}
+
+/*============================================ 283px de largeur */
+/* ============header */
+@media screen and (max-width:283px) {
+  #profil-container-img {
+    width: 8rem;
+    height: 12rem;
+  }
+
+  #mail-icon {
+    top: 135px;
+    left: 5%;
+  }
+
+  #github-icon {
+    top: 130px;
+    right: 5%;
+  }
+
+  .masthead-subheading-p {
+    font-size: 5vw;
+  }
+
+  .divider-custom-p i {
+    font-size: 1.5rem;
+  }
+
+  .divider-custom-p-icon i {
+    font-size: 15px;
+  }
+
+  .cv-container {
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .intro h2 {
+    font-size: 15px;
+  }
+
+  .Profil-home-container a i {
+    font-size: 20px;
+  }
+}
+
+/*============================================ 152px de largeur */
+@media screen and (max-width:152px) {
+  #mail-icon {
+    top: 100px;
+    left: 3%;
+  }
+
+  #github-icon {
+    top: 100px;
+    right: 3.5%;
+  }
+
+  .masthead-subheading-p {
+    font-size: 5vw;
+  }
+
+  .Profil-home-container a i {
+    font-size: 15px;
+  }
+}

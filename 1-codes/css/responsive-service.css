@@ -1,0 +1,113 @@
+/* ============================964px */
+@media screen and (max-width:964px) {
+  .service-space {
+    max-width: 600px;
+  }
+}
+
+/* =================768px de largeur */
+@media only screen and (min-width:768px) {
+
+  .service-space::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--border-color-c);
+  }
+
+  .service-space ul li {
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .service-space ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+
+  .service-space ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+
+  .service-space ul li::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: var(--border-color-c);
+    border-radius: 50%;
+    top: 0;
+  }
+
+  .service-space ul li:nth-child(odd)::after {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+
+  .service-space ul li:nth-child(even)::after {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+
+  .service-space ul li:hover::after {
+    background-color: var(--effect-color-c);
+  }
+
+  .service-content .service-field {
+    position: absolute;
+    top: -30px;
+  }
+
+}
+
+/* ==================302px de largeur */
+@media screen and (max-width:302px) {
+  .service-content h5 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .service-content .service-field {
+    font-size: 10px;
+    margin-bottom: 9px;
+    letter-spacing: 1px;
+  }
+}
+
+/* ======================228px de largeur */
+@media screen and (max-width:228px) {
+
+  .service-content h6 {
+    font-size: 8px;
+    font-weight: 500;
+  }
+
+  .service-content h5 {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 9px;
+    margin-bottom: 10px;
+  }
+
+  .service-content .service-field {
+    font-size: 7px;
+    margin-bottom: 9px;
+    letter-spacing: 1px;
+  }
+
+  .service-content {
+    font-size: 8px;
+    line-height: 10px;
+  }
+}

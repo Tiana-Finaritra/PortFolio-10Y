@@ -1,0 +1,27 @@
+/* ===================762px de largeur min */
+@media screen and (max-width: 762px) {
+  .slide-temoignage-container {
+    width: 455px;
+  }
+}
+
+/* ===================446px de largeur min */
+@media screen and (max-width: 445px) {
+  .slide-temoignage-container {
+    width: 90%;
+  }
+
+  .slide-space-temoin {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+/* ===================202px de largeur min */
+@media screen and (max-width: 202px) {
+  .Temoignage {
+    margin-bottom: 12px;
+  }
+
+}
